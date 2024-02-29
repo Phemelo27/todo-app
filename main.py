@@ -3,6 +3,7 @@ from functions import get_todos, write_todos
 import time
 
 now = time.strftime("%d %b, %Y - %H:%M:%S")
+print("The date is below:")
 print("It is ", now)
 
 while True:
